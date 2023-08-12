@@ -75,6 +75,8 @@ form.addEventListener("submit", e => {
     })
 })
 
+
+
 function updateResponseDetails(response) {
   document.querySelector("[data-status]").textContent = response.status
   document.querySelector("[data-time]").textContent = response.customData.time
